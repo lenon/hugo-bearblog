@@ -40,6 +40,12 @@
     font-weight: 400;
   }
 
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   nav a {
     margin-right: 10px;
   }
@@ -176,4 +182,9 @@
     }
   }
 
+  @media (max-width: 576px) {
+    header {
+      display: block;
+    }
+  }
 </style>
